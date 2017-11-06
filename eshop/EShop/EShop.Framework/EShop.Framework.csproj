@@ -7,8 +7,8 @@
     <ProjectGuid>{4F5666EC-9954-418A-BB54-BB93D139038C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EShop.Framework</RootNamespace>
-    <AssemblyName>EShop.Framework</AssemblyName>
+    <RootNamespace>Eshop.Framework</RootNamespace>
+    <AssemblyName>Eshop.Framework</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

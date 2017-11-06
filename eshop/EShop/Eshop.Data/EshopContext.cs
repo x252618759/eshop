@@ -12,6 +12,10 @@ namespace Eshop.Data
 {
     public class EshopContext : DbContext, IDbContext
     {
+        public EshopContext(string nameOrConnectionString) :base(nameOrConnectionString)
+        {
+            
+        }
         public new IDbSet<TEntity> Set<TEntity>() where TEntity:BaseEntity
         {
             return base.Set<TEntity>();

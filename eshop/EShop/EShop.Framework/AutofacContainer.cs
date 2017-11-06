@@ -4,11 +4,11 @@ using Autofac.Configuration;
 using System.Web.Mvc;
 using Autofac.Integration.Mvc;
 
-namespace EShop.Framework
+namespace Eshop.Framework
 {
     public class AutofacContainer
     {
-        public void RegisterDependency()
+        public static void RegisterDependency()
         {
            var  builder = new ContainerBuilder();
 
